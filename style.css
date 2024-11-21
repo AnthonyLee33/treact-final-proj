@@ -252,6 +252,12 @@ FEATURES
 
 */
 
+#features .row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .features__description {
     display: flex;
     flex-direction: column;
@@ -343,11 +349,11 @@ FEATURES
 }
 
 .work__section--title {
-    font-size: 20px;
+    font-size: 24px;
     color: #6415ff;
     font-weight: bolder;
     padding-bottom: 20px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 .work__section--heading{
@@ -413,9 +419,9 @@ FEATURES
 
 .steps__description--title {
     color: #6415ff;
-    font-size: 20px;
-    letter-spacing: 1.6px;
-    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 
@@ -476,9 +482,9 @@ FEATURES
 }
 
 .value__title {
-    font-size: 36px;
-    font-weight: 600;
-    letter-spacing: 1.6px;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 2px;
     padding-top: 14px;
     max-width: 460px;
     padding-bottom: 16px;
@@ -556,7 +562,7 @@ FEATURES
 
 /* PRICING */
 
-.pricing__row {
+#pricing .row {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -564,9 +570,9 @@ FEATURES
 
 .pricing__title {
     color: #6415ff;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1.6px;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 .value__heading {
@@ -753,11 +759,11 @@ FEATURES
 
 .testimonials__heading {
     color: #6415ff;
-    font-size: 20px;
-    font-weight: 900;
-    letter-spacing: 1.6px;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 24px;
+    margin-bottom: 2px;
 }
 
 .testimonials__title { 
@@ -766,7 +772,7 @@ FEATURES
     font-size: 48px;
     font-weight: 900;
     color: rgb(36, 63, 99);
-    margin: 16px 0;
+    margin: 10px 0;
     letter-spacing: 0.025em;
 }
 
